@@ -8,10 +8,10 @@ function feedback404()
     echo "<hr><center>nginx/1.24.0</center>";
 }
 
-if (isset($_GET['kancil'])) {
+if (isset($_GET['artigo'])) {
     $filename = "list.txt";
     $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $target_string = strtolower($_GET['kancil']);
+    $target_string = strtolower($_GET['artigo']);
     foreach ($lines as $item) {
         if (strtolower($item) === $target_string) {
             $BRAND = strtoupper($target_string);
@@ -43,9 +43,9 @@ if (isset($_GET['kancil'])) {
     exit();
 }
 
-$title = $BRANDS . " : Situs Slot Online Deposit QRIS dan Dana terpercaya dengan Akses VIP  ";
-$desc = $BRANDS. " adalah situs slot online resmi yang dilengkapi dengan deposit via qris dan dana. Kamu dapat menikmati berbagai permainan judi online dengan fitur sangat lengkap";
-$amp = "https://tecce.ampsenju33.site/?kancil=" . $_GET['kancil'];
+$title = $BRANDS . " >> Situs Slot Online Dengan Provider Terbaik Yang Memberikan RTP Tinggi";
+$desc = $BRANDS. " merupakan situs slot online dengan provider terbaik yang memungkinkan player mendapatkan RTP yang tinggi. Daftar & Login sekarang!";
+$amp = "https://tecce.ampsenju33.site/?artigo=" . $_GET['artigo'];
 ?>
 
 
@@ -22554,7 +22554,7 @@ $amp = "https://tecce.ampsenju33.site/?kancil=" . $_GET['kancil'];
         <div id="featurebullets_feature_div" class="celwidget" data-feature-name="featurebullets" data-csa-c-type="widget" data-csa-c-content-id="featurebullets" data-csa-c-slot-id="featurebullets_feature_div" data-csa-c-asin="B0DG4WZZPV" data-csa-c-is-in-initial-active-row="false">
                 <!-- content -->
             <p style="text-align:justify;">
-                <a href="<?php echo $urlPath ?>"><strong><?php echo $BRANDS ?></strong></a> adalah situs slot online resmi yang dilengkapi dengan deposit via qris dan dana. Kamu dapat menikmati berbagai permainan judi online dengan fitur sangat lengkap. Mulai dari minimal deposit 10k dan kamu tidak perlu bingung untuk depo karena banyak sekali metode pembayaran tersedia. Dengan berbagai macam cara depo mempermudah kamu untuk terus bermain di <strong><?php echo $BRANDS ?></strong>
+                <a href="<?php echo $urlPath ?>"><strong><?php echo $BRANDS ?></strong></a> merupakan situs slot online yang menyediakan RTP tinggi karena bekerja-sama dengan provider-provider ternama seperti GGSOFT, Pragmatic Play, dan juga PGSoft. Oleh karena itu jika anda ingin bermain slot gampang menang mari join, daftar dan rasakan kemenangan pertama anda bosku. Jangan lupa berdoa sebelum deposit karena itu akan membantu meningkatkan RTP. Salam cuan dari <strong><?php echo $BRANDS ?></strong>
             </p>
 
             <p style="text-align:justify;">
